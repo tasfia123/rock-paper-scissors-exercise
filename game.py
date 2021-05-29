@@ -32,5 +32,31 @@ computer_choice = random.choice(valid_options)
 print("COMPUTER CHOICE:", computer_choice)
 
 
+# determine who won!
+
+if user_choice == "rock":
+    if computer_choice == "rock":
+        print("IT'S A TIE")
+    elif computer_choice == "paper":
+        print("OH, THE COMPUTER WON...")
+    elif computer_choice == "scissors":
+        print("YOU WON! CONGRATS!")
+elif user_choice == "paper":
+    if computer_choice == "rock":
+        print("YOU WON! CONGRATS!")
+    elif computer_choice == "paper":
+        print("IT'S A TIE")
+    elif computer_choice == "scissors":
+        print("OH, THE COMPUTER WON...")
+elif user_choice == "scissors":
+    if computer_choice == "rock":
+        print("OH, THE COMPUTER WON...")
+    elif computer_choice == "paper":
+        print("YOU WON! CONGRATS!")
+    elif computer_choice == "scissors":
+        print("IT'S A TIE")
+
+
 print("This is the end of our game, please play again")
+
 
