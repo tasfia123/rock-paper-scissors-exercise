@@ -14,7 +14,8 @@ conda create -n my-game-env python=3.8
 conda activate my-game-env
 ```
 Install the required packages:
-```sh pip install -r requirements.txt 
+```sh 
+pip install -r requirements.txt 
 ```
 
 ### Configuring Environment Variables
