@@ -10,8 +10,8 @@ cd /c/Python\ Exercise/rock-paper-scissors-exercise/
 ## Setup
 Setup a virtual environment (if you like that kind of thing):
 ```sh
-conda create -n my-rps-game-env python=3.8
-conda activate my-rps-game-env
+conda create -n my-game-env python=3.8 
+conda activate my-game-env
 ```
 Install the required packages:
 ```sh pip install -r requirements.txt 
